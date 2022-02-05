@@ -1,6 +1,5 @@
 #include "shape.h"
 #include "rectangle.h"
-#include <iostream>
 
 //default constructor
 Rectangle::Rectangle() {

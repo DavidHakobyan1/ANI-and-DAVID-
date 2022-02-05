@@ -5,10 +5,6 @@
 #include "triangle.h"
 
 int main() {
-	std::cout <<"Shape-------------------"<<std::endl;
-	//Shape
-	Shape S(4,4);
-	std::cout <<"Constructor Shape:X " << S.get_X()<<", Y " << S.get_Y() <<std::endl;
 	std::cout <<"Rectangle-------------------"<<std::endl;
 	//Rectangle
 	Rectangle R(4,4,5,6);

@@ -35,7 +35,7 @@ void Triangle::set_Height(int new_height) {
 }
 
 // area rectangle
-int Triangle::area() {
+int Triangle::area()  {
     return  ((height * width)/2);
 }
 

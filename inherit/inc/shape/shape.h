@@ -17,9 +17,9 @@ public:
    void set_Y(int new_y);
    void moveTo(int new_x, int new_y);
    void rMoveTo(int deltax, int deltay);
-   virtual int area();
-   bool operator==(const Shape& obj);
-   virtual Shape& operator=(const Shape& obj);
+   virtual int  area()=0;
+   bool operator==(const Shape& obj) ;
+   Shape& operator=(const Shape& obj);
 
 };
 

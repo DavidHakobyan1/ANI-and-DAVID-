@@ -1,6 +1,5 @@
 #include "shape.h"
 #include "circle.h"
-#include <iostream>
 #include <cmath>
 
 //default constructor

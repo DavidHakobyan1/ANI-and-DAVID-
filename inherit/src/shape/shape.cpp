@@ -43,17 +43,3 @@ void Shape::rMoveTo(int deltax, int deltay) {
    moveTo(get_X() + deltax, get_Y() + deltay);
 }
 
-// abstract area
-int Shape::area() {
-	return 1;
-}
-
-// abstract operator ==
-bool Shape::operator==(const Shape& obj) {
-	return false;
-}
-
-//abstract operator =
-Shape& Shape::operator=(const Shape& obj) {
-	return *this;
-}
